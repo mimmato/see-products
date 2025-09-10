@@ -1,0 +1,39 @@
+{
+  "stores": [
+    {
+      "name": "Kaufland",
+      "products": [
+        {
+          "name": "Example Product 1",
+          "category": "Food",
+          "url": "https://www.example.com/product1",
+          "selectors": { 
+            "price": ".price-value, .current-price, [data-price]", 
+            "image": "img.product-image, .product-photo img" 
+          }
+        }
+      ]
+    },
+    {
+      "name": "Billa", 
+      "products": [
+        {
+          "name": "Example Product 2",
+          "category": "Food",
+          "url": "https://www.example.com/product2",
+          "selectors": { 
+            "price": ".price-current, .product-price, .final-price", 
+            "image": "img.product-main, .main-image img" 
+          }
+        }
+      ]
+    }
+  ],
+  "_comment": "Replace example URLs and products with real supermarket product pages. Use multiple CSS selectors as fallbacks for price and image extraction."
+}
+
+
+
+
+
+

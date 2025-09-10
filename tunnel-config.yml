@@ -1,0 +1,18 @@
+tunnel: price-tracker-bg
+credentials-file: credentials.json
+
+ingress:
+  # Route for the main website (frontend)
+  - hostname: "*.trycloudflare.com"
+    service: http://localhost:80
+    
+  # Route API requests to the API server
+  - hostname: "*.trycloudflare.com"
+    path: "/api/*"
+    service: http://localhost:3001
+    
+  # Catch-all rule (required)
+  - service: http_status:404
+
+# Optional: Enable metrics
+metrics: localhost:8088

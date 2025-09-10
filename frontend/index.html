@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ценови Трекер България - Сравнете Цените в Супермаркетите</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.29.3/index.min.js"></script>
+    <style>
+        :root {
+            --kaufland: #e60000;
+            --billa: #ffd500;
+            --lidl: #0050aa;
+            --fantastico: #00a651;
+            --tmarket: #ffcc00; /* choose brand color */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .hero-section {
+            background: white;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        .store-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        /* Store-specific badge styling using CSS custom properties */
+        .store-badge.kaufland { --store-color: var(--kaufland); --store-bg: rgba(241, 234, 234, 0.904); }
+        .store-badge.billa { --store-color: #d4a000; --store-bg: rgba(255, 213, 0, 0.1); }
+        .store-badge.lidl { --store-color: var(--lidl); --store-bg: rgba(0, 80, 170, 0.1); }
+        .store-badge.fantastico { --store-color: var(--fantastico); --store-bg: rgba(0, 166, 81, 0.1); }
+
+        .store-badge.t-market { 
+  --store-color: var(--tmarket); 
+  --store-bg: rgba(255, 204, 0, 0.1); 
+}
+
+        .store-badge[class*="store-badge"] {
+            background: var(--store-bg);
+            color: var(--store-color);
+            border: 2px solid var(--store-color);
+        }
+
+        .price-card {
+            background: white;
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .price-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+
+        .price-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+        }
+
+        /* Store-specific card styling using CSS custom properties */
+        .price-card.kaufland { --store-color: var(--kaufland); }
+        .price-card.billa { --store-color: var(--billa); }
+        .price-card.lidl { --store-color: var(--lidl); }
+        .price-card.fantastico { --store-color: var(--fantastico); }
+        
+        .price-card.t-market { --store-color: var(--tmarket); }
+
+        .price-card[class*="price-card"]::before { 
+            background: var(--store-color, #000000); 
+        }
+
+        .price-trend-up {
+            color: #ef4444;
+        }
+
+        .price-trend-down {
+            color: #10b981;
+        }
+
+        .product-search {
+            background: white;
+            border-radius: 50px;
+            padding: 16px 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .product-search input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            padding: 0 16px;
+        }
+
+        .time-selector {
+            display: flex;
+            gap: 8px;
+            padding: 4px;
+            background: #f3f4f6;
+            border-radius: 12px;
+        }
+
+        .time-selector button {
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .time-selector button.active {
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .chart-container {
+            background: white;
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        .comparison-table {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        .comparison-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .comparison-table th {
+            background: #f8f9fa;
+            padding: 16px;
+            text-align: left;
+            font-weight: 600;
+            color: #f2f5fc;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .comparison-table td {
+            padding: 16px;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .best-price {
+            background: #10b98110;
+            font-weight: 700;
+            color: #059669;
+        }
+
+        .loading-skeleton {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+        }
+
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        .fab-button {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .fab-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 30px rgba(0,0,0,0.3);
+        }
+
+        .search-suggestion {
+            padding: 12px 16px;
+            cursor: pointer;
+            border-bottom: 1px solid #f3f4f6;
+            transition: background-color 0.2s ease;
+        }
+
+        .search-suggestion:hover {
+            background-color: #f8f9fa;
+        }
+
+        .search-suggestion:last-child {
+            border-bottom: none;
+        }
+
+        .search-suggestion .product-name {
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 2px;
+        }
+
+        .search-suggestion .product-category {
+            font-size: 12px;
+            color: #6b7280;
+        }
+
+        .search-suggestion .store-count {
+            font-size: 11px;
+            color: #9ca3af;
+            float: right;
+            margin-top: 2px;
+        }
+
+        /* Enhanced Price Comparison Styling */
+        .price-comparison {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #f3f4f6;
+        }
+
+        .old-price {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .savings-badge {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .savings-amount {
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .savings-percentage {
+            font-size: 10px;
+            opacity: 0.9;
+        }
+
+        .price-increase-badge {
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(239, 68, 68, 0.3);
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .increase-amount {
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .increase-percentage {
+            font-size: 10px;
+            opacity: 0.9;
+        }
+
+        .no-change-badge {
+            background: #f3f4f6;
+            color: #6b7280;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+
+        /* Enhanced lowest price indicator */
+        .lowest-price-indicator {
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 0 20px 0 10px;
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+            z-index: 10;
+        }
+
+        .lowest-price-indicator::before {
+            content: '👑';
+            margin-right: 2px;
+            font-size: 8px;
+        }
+
+        /* Store badge enhancements for better accessibility */
+        .store-badge {
+            position: relative;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .store-badge:focus {
+            outline: 2px solid var(--store-color);
+            outline-offset: 2px;
+        }
+
+        .store-badge::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: inherit;
+            box-shadow: 0 0 0 2px var(--store-color);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .store-badge:hover::after {
+            opacity: 0.3;
+        }
+
+        /* Price card accessibility improvements */
+        .price-card:focus-within {
+            outline: 2px solid var(--store-color);
+            outline-offset: 2px;
+        }
+
+        .price-card[tabindex="0"]:focus {
+            outline: 2px solid var(--store-color);
+            outline-offset: 2px;
+        }
+
+        /* Better price readability */
+        .price-main {
+            position: relative;
+            display: flex;
+            align-items: baseline;
+            gap: 4px;
+        }
+
+        .price-currency {
+            font-size: 18px;
+            color: #6b7280;
+            font-weight: 500;
+        }
+
+        /* Mobile responsive improvements */
+        @media (max-width: 768px) {
+            .price-card {
+                padding: 16px;
+            }
+            
+            .product-search {
+                margin: 0 16px;
+            }
+
+            .price-comparison {
+                margin-top: 8px;
+                padding-top: 8px;
+            }
+
+            .price-comparison .flex {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+            }
+
+            .savings-badge, 
+            .price-increase-badge,
+            .no-change-badge {
+                align-self: center;
+                min-width: 120px;
+            }
+
+            .old-price {
+                text-align: center;
+            }
+
+            .lowest-price-indicator {
+                position: relative;
+                top: 0;
+                right: 0;
+                border-radius: 15px;
+                margin-top: 4px;
+                align-self: flex-end;
+            }
+        }
+
+        /* Dark mode support for future implementation */
+        @media (prefers-color-scheme: dark) {
+            .price-card {
+                background: #fafafa;
+                color: #f9fafb;
+            }
+
+            .old-price span {
+                color: #9ca3af;
+            }
+
+            .no-change-badge {
+                background: #374151;
+                color: #d1d5db;
+            }
+        }
+
+        .essential-product-btn {
+            background: white;
+            padding: 8px 16px;
+            border-radius: 25px;
+            border: 2px solid #e5e7eb;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            color: #374151;
+        }
+
+        .essential-product-btn:hover {
+            background: #f8fafc;
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            color: #667eea;
+        }
+
+        .essential-product-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="hero-section">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-shopping-cart text-3xl text-purple-600"></i>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-800">Ценови Трекер България</h1>
+                        <p class="text-sm text-gray-600">Сравнете цените в реално време</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="text-sm text-gray-600">Последна актуализация: <span id="lastUpdate" class="font-semibold">преди 5 мин</span></span>
+                    <button class="text-purple-600 hover:text-purple-700">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <section class="container mx-auto px-4 py-8">
+        <div class="relative max-w-2xl mx-auto">
+            <div class="product-search">
+                <i class="fas fa-search text-gray-400"></i>
+                <input type="text" id="productSearch" placeholder="Търсете продукт от първа необходимост..." autocomplete="off">
+                <button class="text-purple-600 hover:text-purple-700 font-semibold" onclick="handleSearchButtonClick()">Търси</button>
+            </div>
+            
+            <!-- Search Suggestions Dropdown -->
+            <div id="searchSuggestions" class="absolute top-full left-0 right-0 bg-white border border-gray-200 rounded-lg shadow-lg mt-1 max-h-64 overflow-y-auto z-50 hidden">
+                <!-- Suggestions will be populated here -->
+            </div>
+        </div>
+        
+        <!-- Essential Products Quick Search -->
+        <div class="flex flex-wrap justify-center gap-2 mt-4">
+            <!-- Основни хранителни продукти -->
+            <button onclick="searchProduct('хляб')" class="essential-product-btn">🍞 Хляб</button>
+            <button onclick="searchProduct('мляко')" class="essential-product-btn">🥛 Мляко</button>
+            <button onclick="searchProduct('яйца')" class="essential-product-btn">🥚 Яйца</button>
+            <button onclick="searchProduct('олио')" class="essential-product-btn">🫒 Олио</button>
+            <button onclick="searchProduct('сирене')" class="essential-product-btn">🧀 Сирене</button>
+            
+            <!-- Месо и месни продукти -->
+            <button onclick="searchProduct('пилешко месо')" class="essential-product-btn">🐔 Пилешко</button>
+            <button onclick="searchProduct('свинско месо')" class="essential-product-btn">🐷 Свинско</button>
+            <button onclick="searchProduct('кайма')" class="essential-product-btn">🥩 Кайма</button>
+            
+            <!-- Плодове и зеленчуци -->
+            <button onclick="searchProduct('домати')" class="essential-product-btn">🍅 Домати</button>
+            <button onclick="searchProduct('ябълки')" class="essential-product-btn">🍎 Ябълки</button>
+            <button onclick="searchProduct('банани')" class="essential-product-btn">🍌 Банани</button>
+            
+            <!-- Основни храни -->
+            <button onclick="searchProduct('ориз')" class="essential-product-btn">🍚 Ориз</button>
+            <button onclick="searchProduct('макарони')" class="essential-product-btn">🍝 Макарони</button>
+            <button onclick="searchProduct('захар')" class="essential-product-btn">🍬 Захар</button>
+            <button onclick="searchProduct('минерална вода')" class="essential-product-btn">💧 Вода</button>
+        </div>
+    </section>
+
+    <!-- Time Period Selector -->
+    <section class="container mx-auto px-4 pb-4">
+        <div class="flex justify-center">
+            <div class="time-selector">
+                <button class="active" onclick="changePeriod('today')">Днес</button>
+                <button onclick="changePeriod('yesterday')">Вчера</button>
+                <button onclick="changePeriod('week')">Тази седмица</button>
+                <button onclick="changePeriod('month')">Този месец</button>
+                <button onclick="changePeriod('year')">Тази година</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Product Display -->
+    <section class="container mx-auto px-4 py-6">
+        <div class="bg-white rounded-2xl p-6 mb-6">
+            <h2 class="text-2xl font-bold mb-4 flex items-center">
+                <span id="currentProduct">Зареждане...</span>
+                <span class="ml-3 text-sm font-normal text-gray-500"></span>
+            </h2>
+            
+            <!-- Today's Prices Grid -->
+            <div id="priceCardsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+                <!-- Price cards will be populated dynamically -->
+                <div class="col-span-4 text-center text-gray-500 py-8">
+                    <i class="fas fa-spinner fa-spin mr-2"></i>Зареждане на цени...
+                </div>
+            </div>
+
+            
+
+            <!-- Detailed Comparison Table -->
+            <div class="comparison-table">
+                <h3 class="text-lg font-semibold p-4 pb-0">Детайлно Сравнение</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Магазин</th>
+                            <th>Днес</th>
+                            <th>Вчера</th>
+                            <th>Преди седмица</th>
+                            <th>Преди месец</th>
+                            <th>Преди година</th>
+                            <th>Тенденция</th>
+                        </tr>
+                    </thead>
+                    <tbody id="comparisonBody">
+                        <tr>
+                            <td colspan="7" class="text-center py-4">
+                                <i class="fas fa-spinner fa-spin mr-2"></i>Зареждане на сравнение...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Statistics -->
+            <div id="statisticsSection" class="mt-6">
+                <!-- Statistics will be populated dynamically -->
+                <div class="text-center py-4">
+                    <i class="fas fa-spinner fa-spin mr-2"></i>Зареждане на статистики...
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Floating Action Button for Filters -->
+    <button class="fab-button" onclick="toggleFilters()">
+        <i class="fas fa-filter"></i>
+    </button>
+
+    <script>
+        // Removed chart and mock helpers
+
+        const API_BASE = '/api';
+        let currentTimePeriod = 'today';
+
+        // Helper function to format product quantity display
+        function formatProductWithQuantity(productName, weight, unit) {
+            if (!productName) return '';
+            
+            let quantityInfo = '';
+            if (weight && unit) {
+                quantityInfo = ` (${weight}${unit})`;
+            } else if (weight) {
+                quantityInfo = ` (${weight})`;
+            } else if (unit) {
+                quantityInfo = ` (${unit})`;
+            }
+            
+            return productName + quantityInfo;
+        }
+
+        async function searchProduct(productName) {
+            document.getElementById('productSearch').value = productName;
+            document.getElementById('currentProduct').textContent = productName;
+            hideSuggestions();
+            await fetchAndRender(productName);
+        }
+
+        function handleSearchButtonClick() {
+            const searchTerm = document.getElementById('productSearch').value.trim();
+            if (searchTerm) {
+                searchProduct(searchTerm);
+            }
+        }
+
+        function changePeriod(period) {
+            // Update active button
+            document.querySelectorAll('.time-selector button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update current time period and fetch data
+            currentTimePeriod = period;
+            const currentProduct = document.getElementById('productSearch').value || '';
+            if (currentProduct) {
+                fetchAndRenderForPeriod(currentProduct, period);
+            }
+        }
+
+        async function fetchAndRender(product) {
+            await fetchAndRenderForPeriod(product, currentTimePeriod);
+        }
+
+        async function fetchAndRenderForPeriod(product, period) {
+            try {
+                setLoading(true);
+                
+                let periodRes, compareRes;
+                
+                if (period === 'today' || period === 'latest') {
+                    // For 'today' and 'latest', use the latest prices endpoint to show most recent data
+                    [periodRes, compareRes] = await Promise.all([
+                        fetch(`${API_BASE}/prices/latest?product=${encodeURIComponent(product)}`),
+                        fetch(`${API_BASE}/prices/compare?product=${encodeURIComponent(product)}`)
+                    ]);
+                } else {
+                    // For other periods, use the period-specific endpoint
+                    [periodRes, compareRes] = await Promise.all([
+                        fetch(`${API_BASE}/prices/period/${period}?product=${encodeURIComponent(product)}`),
+                        fetch(`${API_BASE}/prices/compare?product=${encodeURIComponent(product)}`)
+                    ]);
+                }
+                
+                if (!periodRes.ok) throw new Error(`Period prices API error: ${periodRes.status}`);
+                if (!compareRes.ok) throw new Error(`Compare prices API error: ${compareRes.status}`);
+                
+                const [periodPrices, compare] = await Promise.all([periodRes.json(), compareRes.json()]);
+                renderLatest(periodPrices.data);
+                renderComparison(compare.data);
+                updatePeriodLabel(period);
+            } catch (e) {
+                console.error('Error fetching data:', e);
+                showErrorMessage('Грешка при зареждане на данните. Моля, опитайте отново.');
+            } finally {
+                setLoading(false);
+            }
+        }
+
+        function updatePeriodLabel(period) {
+            const labels = {
+                'today': 'най-актуални цени',
+                'yesterday': 'вчера', 
+                'week': 'тази седмица',
+                'month': 'този месец',
+                'year': 'тази година'
+            };
+            const currentProductEl = document.getElementById('currentProduct');
+            const productName = document.getElementById('productSearch').value || 'продукт';
+            currentProductEl.textContent = `${productName} (${labels[period] || period})`;
+        }
+
+        function setLoading(isLoading) {
+            const grid = document.getElementById('priceCardsGrid');
+            const tbody = document.getElementById('comparisonBody');
+            
+            if (isLoading) {
+                if (grid) {
+                    grid.innerHTML = '<div class="col-span-4 text-center text-gray-500"><i class="fas fa-spinner fa-spin mr-2"></i>Зареждане...</div>';
+                }
+                if (tbody) {
+                    tbody.innerHTML = '<tr><td colspan="7" class="text-center py-4"><i class="fas fa-spinner fa-spin mr-2"></i>Зареждане...</td></tr>';
+                }
+            }
+        }
+
+        function showErrorMessage(message) {
+            const grid = document.getElementById('priceCardsGrid');
+            if (grid) {
+                grid.innerHTML = `<div class="col-span-4 text-center text-red-500 bg-red-50 p-4 rounded-lg"><i class="fas fa-exclamation-triangle mr-2"></i>${message}</div>`;
+            }
+        }
+
+        function renderLatest(items) {
+            const grid = document.getElementById('priceCardsGrid');
+            if (!grid) return;
+            grid.innerHTML = '';
+            if (!items || items.length === 0) {
+                grid.innerHTML = '<div class="col-span-4 text-center text-gray-500">Няма намерени цени</div>';
+                return;
+            }
+            const lowest = Math.min(...items.map(i => Number(i.price)));
+            items.forEach(item => {
+                const store = (item.store_name || '').toLowerCase();
+                const isLowest = Number(item.price) === lowest;
+                const currentPrice = Number(item.price);
+                const oldPrice = item.previous_price ? Number(item.previous_price) : null;
+                
+                // Generate price comparison section
+                let priceComparisonHtml = '';
+                if (oldPrice && oldPrice > 0) {
+                    const priceDifference = currentPrice - oldPrice;
+                    const percentageChange = Math.round((priceDifference / oldPrice) * 100);
+                    
+                    if (priceDifference < 0) {
+                        // Price decreased - show savings
+                        priceComparisonHtml = `
+                            <div class="flex items-center justify-between">
+                                <div class="old-price">
+                                    <span class="text-xs text-gray-500 uppercase tracking-wide">Преди</span>
+                                    <span class="text-sm font-medium text-gray-400 line-through ml-1">${oldPrice.toFixed(2)} лв</span>
+                                </div>
+                                <div class="savings-badge">
+                                    <span class="savings-amount">-${Math.abs(priceDifference).toFixed(2)} лв</span>
+                                    <span class="savings-percentage">(${Math.abs(percentageChange)}%)</span>
+                                </div>
+                            </div>
+                        `;
+                    } else if (priceDifference > 0) {
+                        // Price increased
+                        priceComparisonHtml = `
+                            <div class="flex items-center justify-between">
+                                <div class="old-price">
+                                    <span class="text-xs text-gray-500 uppercase tracking-wide">Преди</span>
+                                    <span class="text-sm font-medium text-gray-400 line-through ml-1">${oldPrice.toFixed(2)} лв</span>
+                                </div>
+                                <div class="price-increase-badge">
+                                    <span class="increase-amount">+${priceDifference.toFixed(2)} лв</span>
+                                    <span class="increase-percentage">(+${percentageChange}%)</span>
+                                </div>
+                            </div>
+                        `;
+                    } else {
+                        // No price change
+                        priceComparisonHtml = `
+                            <div class="flex items-center justify-between">
+                                <div class="old-price">
+                                    <span class="text-xs text-gray-500 uppercase tracking-wide">Преди</span>
+                                    <span class="text-sm font-medium text-gray-400 line-through ml-1">${oldPrice.toFixed(2)} лв</span>
+                                </div>
+                                <div class="no-change-badge">
+                                    <span class="no-change-text">Без промяна</span>
+                                </div>
+                            </div>
+                        `;
+                    }
+                } else {
+                    // No previous price data available
+                    priceComparisonHtml = `
+                        <div class="text-xs text-gray-500 text-center">
+                            Няма предишна цена за сравнение
+                        </div>
+                    `;
+                }
+                
+                grid.insertAdjacentHTML('beforeend', `
+                    <div class="price-card ${store}" tabindex="0" role="article" aria-label="Цена за ${item.product_name} в ${item.store_name}">
+                        ${isLowest ? '<div class="lowest-price-indicator" role="status" aria-label="Най-ниска цена">НАЙ-НИСКА</div>' : ''}
+                        <div class="flex justify-between items-start mb-3">
+                            <a href="#" onclick="showStoreDiscounts('${item.store_name}'); return false;" class="store-badge ${store} hover:opacity-80 transition-opacity" role="button" aria-label="Виж промоции в ${item.store_name}">${(item.store_name || '').toUpperCase()}</a>
+                        </div>
+                        <div class="mb-2">
+                            ${item.product_url ? 
+                                `<a href="${item.product_url}" target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-blue-600 hover:text-blue-800 hover:underline mb-1 block" aria-label="Виж продукта в ${item.store_name}">${formatProductWithQuantity(item.product_name, item.product_weight, item.product_unit)} <i class="fas fa-external-link-alt text-xs ml-1"></i></a>` : 
+                                `<div class="text-sm font-medium text-gray-700 mb-1" aria-label="Продукт">${formatProductWithQuantity(item.product_name, item.product_weight, item.product_unit)}</div>`
+                            }
+                            <div class="price-main" role="text" aria-label="Цена ${currentPrice.toFixed(2)} лева">
+                                <span class="text-3xl font-bold text-gray-800">${currentPrice.toFixed(2)}</span>
+                                <span class="price-currency">лв</span>
+                            </div>
+                        </div>
+                        <div class="price-comparison">
+                            ${priceComparisonHtml}
+                        </div>
+                    </div>
+                `);
+            });
+        }
+
+        function renderComparison(rows) {
+            const tbody = document.getElementById('comparisonBody');
+            if (!tbody) return;
+            tbody.innerHTML = '';
+            if (!rows || rows.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" class="text-center text-gray-500 py-4">Няма данни</td></tr>';
+                return;
+            }
+            
+            // Find the lowest current price for highlighting
+            const todayPrices = rows.filter(r => r.today).map(r => Number(r.today));
+            const lowestToday = todayPrices.length > 0 ? Math.min(...todayPrices) : null;
+            
+            rows.forEach(r => {
+                const store = (r.store_name || '').toLowerCase();
+                const isLowestToday = lowestToday && r.today && Number(r.today) === lowestToday;
+                const todayClass = isLowestToday ? 'best-price' : '';
+                
+                tbody.insertAdjacentHTML('beforeend', `
+                    <tr>
+                        <td><a href="#" onclick="showStoreDiscounts('${r.store_name}'); return false;" class="store-badge ${store} hover:opacity-80 transition-opacity">${(r.store_name || '').toUpperCase()}</a></td>
+                        <td class="${todayClass}">${r.today ? Number(r.today).toFixed(2) + ' лв' : '-'}</td>
+                        <td>${r.yesterday ? Number(r.yesterday).toFixed(2) + ' лв' : '-'}</td>
+                        <td>${r.week_avg ? Number(r.week_avg).toFixed(2) + ' лв' : '-'}</td>
+                        <td>${r.month_avg ? Number(r.month_avg).toFixed(2) + ' лв' : '-'}</td>
+                        <td>-</td>
+                        <td>${r.trend === 'up' ? '<i class="fas fa-arrow-up price-trend-up"></i>' : r.trend === 'down' ? '<i class="fas fa-arrow-down price-trend-down"></i>' : '<i class="fas fa-minus text-gray-400"></i>'}</td>
+                    </tr>
+                `);
+            });
+        }
+
+        function toggleFilters() {
+            // Toggle filter panel
+            console.log('Toggle filters');
+        }
+
+        // Auto-update last update time
+        setInterval(() => {
+            const minutes = Math.floor(Math.random() * 10) + 1;
+            document.getElementById('lastUpdate').textContent = `преди ${minutes} мин`;
+        }, 60000);
+
+        // Search suggestions functionality
+        let searchTimeout;
+        
+        async function fetchSearchSuggestions(query) {
+            if (query.length < 2) {
+                hideSuggestions();
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/search/suggestions?q=${encodeURIComponent(query)}`);
+                if (response.ok) {
+                    const suggestions = await response.json();
+                    displaySuggestions(suggestions);
+                } else {
+                    hideSuggestions();
+                }
+            } catch (error) {
+                console.error('Error fetching suggestions:', error);
+                hideSuggestions();
+            }
+        }
+        
+        function displaySuggestions(suggestions) {
+            const container = document.getElementById('searchSuggestions');
+            
+            if (!suggestions || suggestions.length === 0) {
+                hideSuggestions();
+                return;
+            }
+            
+            container.innerHTML = '';
+            
+            suggestions.forEach(suggestion => {
+                const item = document.createElement('div');
+                item.className = 'search-suggestion';
+                item.innerHTML = `
+                    <div class="product-name">${suggestion.name}</div>
+                    <div class="product-category">${suggestion.category || 'Общи'}</div>
+                    <div class="store-count">${suggestion.store_count} магазин${suggestion.store_count > 1 ? 'а' : ''}</div>
+                `;
+                
+                item.addEventListener('click', () => {
+                    searchProduct(suggestion.name);
+                });
+                
+                container.appendChild(item);
+            });
+            
+            container.classList.remove('hidden');
+        }
+        
+        function hideSuggestions() {
+            document.getElementById('searchSuggestions').classList.add('hidden');
+        }
+        
+        // Handle search input
+        document.getElementById('productSearch').addEventListener('input', function(e) {
+            const query = e.target.value.trim();
+            
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                fetchSearchSuggestions(query);
+            }, 300);
+        });
+        
+        document.getElementById('productSearch').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                handleSearchButtonClick();
+            }
+        });
+        
+        // Hide suggestions when clicking outside
+        document.addEventListener('click', function(e) {
+            const searchSection = e.target.closest('.relative');
+            if (!searchSection) {
+                hideSuggestions();
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', async function() {
+            await loadStatistics();
+            searchProduct('');
+        });
+
+
+        async function showStoreDiscounts(storeName) {
+            try {
+                const response = await fetch(`${API_BASE}/stores/${encodeURIComponent(storeName)}/discounts`);
+                if (!response.ok) throw new Error('Failed to fetch store discounts');
+                
+                const discounts = await response.json();
+                displayStoreDiscounts(storeName, discounts);
+            } catch (error) {
+                console.error('Error fetching store discounts:', error);
+                alert('Грешка при зареждане на промоциите. Моля, опитайте отново.');
+            }
+        }
+
+        function displayStoreDiscounts(storeName, discounts) {
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50';
+            modal.innerHTML = `
+                <div class="bg-white rounded-lg p-6 max-w-4xl max-h-80vh overflow-auto m-4">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-2xl font-bold">Промоции в ${storeName}</h2>
+                        <button onclick="this.closest('.fixed').remove()" class="text-gray-500 hover:text-gray-700">
+                            <i class="fas fa-times text-xl"></i>
+                        </button>
+                    </div>
+                    <div class="grid gap-4">
+                        ${discounts.length === 0 ? '<p class="text-gray-500 text-center py-8">Няма активни промоции в момента</p>' : ''}
+                        ${discounts.map(item => `
+                            <div class="border rounded-lg p-4 hover:bg-gray-50 transition">
+                                <div class="flex justify-between items-start">
+                                    <div>
+                                        ${item.product_url ? 
+                                            `<h3 class="font-semibold text-lg"><a href="${item.product_url}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">${formatProductWithQuantity(item.product_name, item.product_weight, item.product_unit)} <i class="fas fa-external-link-alt text-xs ml-1"></i></a></h3>` :
+                                            `<h3 class="font-semibold text-lg">${formatProductWithQuantity(item.product_name, item.product_weight, item.product_unit)}</h3>`
+                                        }
+                                        <p class="text-gray-600">${item.product_category || 'Общи'}</p>
+                                    </div>
+                                    <div class="text-right">
+                                        <div class="text-2xl font-bold text-green-600">${Number(item.price).toFixed(2)} лв</div>
+                                        <div class="text-sm line-through text-gray-400">${Number(item.old_price).toFixed(2)} лв</div>
+                                        <div class="text-sm font-semibold text-red-600">-${item.discount_percentage}%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+            
+            // Close on outside click
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.remove();
+                }
+            });
+        }
+
+        async function loadStatistics() {
+            try {
+                const response = await fetch(`${API_BASE}/statistics`);
+                if (!response.ok) return;
+                
+                const stats = await response.json();
+                renderStatistics(stats);
+            } catch (error) {
+                console.error('Error loading statistics:', error);
+            }
+        }
+
+        // Keyboard navigation for price cards
+        document.addEventListener('keydown', function(e) {
+            const focusedCard = document.activeElement;
+            if (!focusedCard || !focusedCard.classList.contains('price-card')) return;
+            
+            const cards = Array.from(document.querySelectorAll('.price-card'));
+            const currentIndex = cards.indexOf(focusedCard);
+            
+            switch(e.key) {
+                case 'ArrowRight':
+                    e.preventDefault();
+                    const nextIndex = (currentIndex + 1) % cards.length;
+                    cards[nextIndex].focus();
+                    break;
+                case 'ArrowLeft':
+                    e.preventDefault();
+                    const prevIndex = currentIndex === 0 ? cards.length - 1 : currentIndex - 1;
+                    cards[prevIndex].focus();
+                    break;
+                case 'Enter':
+                case ' ':
+                    e.preventDefault();
+                    const storeLink = focusedCard.querySelector('.store-badge');
+                    if (storeLink) storeLink.click();
+                    break;
+            }
+        });
+
+        // Announce price changes to screen readers
+        function announcePrice(storeName, currentPrice, previousPrice) {
+            const announcement = document.createElement('div');
+            announcement.setAttribute('aria-live', 'polite');
+            announcement.setAttribute('aria-atomic', 'true');
+            announcement.style.position = 'absolute';
+            announcement.style.left = '-10000px';
+            
+            if (previousPrice && currentPrice < previousPrice) {
+                const savings = (previousPrice - currentPrice).toFixed(2);
+                announcement.textContent = `Цената в ${storeName} е намалена с ${savings} лева`;
+            } else if (previousPrice && currentPrice > previousPrice) {
+                const increase = (currentPrice - previousPrice).toFixed(2);
+                announcement.textContent = `Цената в ${storeName} е увеличена с ${increase} лева`;
+            }
+            
+            document.body.appendChild(announcement);
+            setTimeout(() => document.body.removeChild(announcement), 1000);
+        }
+
+        function renderStatistics(stats) {
+            const container = document.getElementById('statisticsSection');
+            if (!container || !stats.average_price) return;
+            
+            container.innerHTML = `
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="bg-purple-50 p-4 rounded-lg text-center">
+                        <div class="text-2xl font-bold text-purple-600">${Number(stats.average_price).toFixed(2)} лв</div>
+                        <div class="text-sm text-gray-600">Средна цена</div>
+                    </div>
+                    <div class="bg-green-50 p-4 rounded-lg text-center">
+                        <div class="text-2xl font-bold text-green-600">${Number(stats.min_price).toFixed(2)} лв</div>
+                        <div class="text-sm text-gray-600">Най-ниска</div>
+                    </div>
+                    <div class="bg-red-50 p-4 rounded-lg text-center">
+                        <div class="text-2xl font-bold text-red-600">${Number(stats.max_price).toFixed(2)} лв</div>
+                        <div class="text-sm text-gray-600">Най-висока</div>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg text-center">
+                        <div class="text-2xl font-bold text-blue-600">${stats.store_count}</div>
+                        <div class="text-sm text-gray-600">Магазина</div>
+                    </div>
+                </div>
+            `;
+        }
+
+    </script>
+</body>
+</html>

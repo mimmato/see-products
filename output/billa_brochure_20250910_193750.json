@@ -1,0 +1,2218 @@
+[
+  {
+    "name": "Само с Billa Card - Бисер Слънчогледово олио 1 л До 6 бр. на клиент* Произход - България",
+    "old_price": 3.99,
+    "new_price": 2.79,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.603805"
+  },
+  {
+    "name": "Супер Печено кюфте От топлата витрина 1 бр. Произход - България Billa Ready",
+    "old_price": 0.99,
+    "new_price": 0.59,
+    "currency": "лв.",
+    "discount_percent": 40,
+    "extracted_at": "2025-09-10T19:37:50.604583"
+  },
+  {
+    "name": "Супер Маджаров Кашкавал от краве мляко БДС 800 г Произход - България",
+    "old_price": 29.99,
+    "new_price": 20.99,
+    "currency": "лв.",
+    "discount_percent": 30,
+    "extracted_at": "2025-09-10T19:37:50.604944"
+  },
+  {
+    "name": "Супер Българска ферма Свински врат с кост нарязан За 1 кг Произход - България",
+    "old_price": 12.49,
+    "new_price": 8.99,
+    "currency": "лв.",
+    "discount_percent": 28,
+    "extracted_at": "2025-09-10T19:37:50.605089"
+  },
+  {
+    "name": "Супер Баничка със сирене 90 г Произход - България",
+    "old_price": 1.19,
+    "new_price": 0.59,
+    "currency": "лв.",
+    "discount_percent": 50,
+    "extracted_at": "2025-09-10T19:37:50.605250"
+  },
+  {
+    "name": "Супер Ситово Краве сирене От деликатесната витрина За 1 кгПроизход - България",
+    "old_price": 18.49,
+    "new_price": 12.89,
+    "currency": "лв.",
+    "discount_percent": 30,
+    "extracted_at": "2025-09-10T19:37:50.605399"
+  },
+  {
+    "name": "Супер Балкан Кисело мляко 4,5% 400 г Произход - България",
+    "old_price": 2.19,
+    "new_price": 1.39,
+    "currency": "лв.",
+    "discount_percent": 36,
+    "extracted_at": "2025-09-10T19:37:50.605556"
+  },
+  {
+    "name": "Супер Billa Градини Сини сливи Градините в с. Трилистник За 1 кг Произход - България",
+    "old_price": 3.99,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": 50,
+    "extracted_at": "2025-09-10T19:37:50.605689"
+  },
+  {
+    "name": "Супер Боровец Тунквана вафла 52 - 55 г Произход - България",
+    "old_price": 0.69,
+    "new_price": 0.45,
+    "currency": "лв.",
+    "discount_percent": 34,
+    "extracted_at": "2025-09-10T19:37:50.605815"
+  },
+  {
+    "name": "Супер Мираж Бисквити 178 г Произход - България",
+    "old_price": 3.39,
+    "new_price": 2.29,
+    "currency": "лв.",
+    "discount_percent": 32,
+    "extracted_at": "2025-09-10T19:37:50.606003"
+  },
+  {
+    "name": "Супер Ариана бира 2 л Произход - България",
+    "old_price": 2.99,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.606136"
+  },
+  {
+    "name": "Супер Печено пиле От топлата витрина 1 бр. Billa Ready",
+    "old_price": 13.99,
+    "new_price": 10.99,
+    "currency": "лв.",
+    "discount_percent": 21,
+    "extracted_at": "2025-09-10T19:37:50.606397"
+  },
+  {
+    "name": "Супер Lurpak Краве масло 200 г",
+    "old_price": 8.99,
+    "new_price": 5.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.606524"
+  },
+  {
+    "name": "Супер Пърленка От Billa пекарна 160 г Billa Ready",
+    "old_price": 1.05,
+    "new_price": 0.69,
+    "currency": "лв.",
+    "discount_percent": 34,
+    "extracted_at": "2025-09-10T19:37:50.606647"
+  },
+  {
+    "name": "Супер Саяна Краве сирене ЗНП 700 г",
+    "old_price": 15.99,
+    "new_price": 11.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.606770"
+  },
+  {
+    "name": "Супер Еко Мес Тракийска луканка 230 г",
+    "old_price": 6.99,
+    "new_price": 3.49,
+    "currency": "лв.",
+    "discount_percent": 50,
+    "extracted_at": "2025-09-10T19:37:50.606893"
+  },
+  {
+    "name": "Супер Бяла река Пъстърва вакуум За 1 кг Произход - България",
+    "old_price": 14.99,
+    "new_price": 9.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.607033"
+  },
+  {
+    "name": "Супер Billa скир 500 г",
+    "old_price": 3.99,
+    "new_price": 2.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.607163"
+  },
+  {
+    "name": "Супер Черни маслини Мамут 101 - 110** От деликатесната витрина За 1 кг Billa Ready",
+    "old_price": 14.99,
+    "new_price": 7.99,
+    "currency": "лв.",
+    "discount_percent": 46,
+    "extracted_at": "2025-09-10T19:37:50.607577"
+  },
+  {
+    "name": "Супер Del Alma Маслиново масло Extra Virgin 1 л",
+    "old_price": 29.99,
+    "new_price": 18.99,
+    "currency": "лв.",
+    "discount_percent": 36,
+    "extracted_at": "2025-09-10T19:37:50.607829"
+  },
+  {
+    "name": "Супер Krina Ориз Balance 800 г",
+    "old_price": 4.99,
+    "new_price": 2.89,
+    "currency": "лв.",
+    "discount_percent": 42,
+    "extracted_at": "2025-09-10T19:37:50.607967"
+  },
+  {
+    "name": "Супер Milka Шоколад млечен или Oreo 100 г",
+    "old_price": 4.79,
+    "new_price": 2.99,
+    "currency": "лв.",
+    "discount_percent": 37,
+    "extracted_at": "2025-09-10T19:37:50.608297"
+  },
+  {
+    "name": "Супер Lindt Бонбониера Lindor 200 г",
+    "old_price": 16.39,
+    "new_price": 12.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.608499"
+  },
+  {
+    "name": "Супер Lotto Кроасан 110 г",
+    "old_price": 1.39,
+    "new_price": 1.09,
+    "currency": "лв.",
+    "discount_percent": 21,
+    "extracted_at": "2025-09-10T19:37:50.608632"
+  },
+  {
+    "name": "Супер Pepsi газирана напитка 2 л",
+    "old_price": 3.19,
+    "new_price": 1.89,
+    "currency": "лв.",
+    "discount_percent": 40,
+    "extracted_at": "2025-09-10T19:37:50.608763"
+  },
+  {
+    "name": "Супер Lavazza Мляно кафе Qualita Oro 250 г",
+    "old_price": 18.79,
+    "new_price": 12.99,
+    "currency": "лв.",
+    "discount_percent": 30,
+    "extracted_at": "2025-09-10T19:37:50.608892"
+  },
+  {
+    "name": "Супер Grant's Уиски 0,7 л",
+    "old_price": 29.99,
+    "new_price": 19.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.609024"
+  },
+  {
+    "name": "Супер Quantum Вино 0,75 л Произход - България",
+    "old_price": 11.49,
+    "new_price": 8.49,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.609150"
+  },
+  {
+    "name": "Супер Ruffles Чипс 230 г",
+    "old_price": 6.19,
+    "new_price": 3.69,
+    "currency": "лв.",
+    "discount_percent": 40,
+    "extracted_at": "2025-09-10T19:37:50.609335"
+  },
+  {
+    "name": "Сега в Billa - Ariel Гел за пране 60 пранета или Гел капсули 43 бр. 1 опаковка Продукт, маркиран със синя звезда 1 изпиране = 0,45 лв./0,23 €/ 60 пранета, 0,62 лв./0,32 €/ 43 пранета",
+    "old_price": 49.39,
+    "new_price": 26.99,
+    "currency": "лв.",
+    "discount_percent": 45,
+    "extracted_at": "2025-09-10T19:37:50.609490"
+  },
+  {
+    "name": "Сега в Billa - Billa Тоалетна хартия 3 пласта 8 бр. в опаковка",
+    "old_price": 6.49,
+    "new_price": 4.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.609620"
+  },
+  {
+    "name": "Траяна Тунквани бисквити 160 г",
+    "old_price": 2.99,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.610600"
+  },
+  {
+    "name": "Насладки Дребни сладки 134 г",
+    "old_price": 2.69,
+    "new_price": 1.89,
+    "currency": "лв.",
+    "discount_percent": 29,
+    "extracted_at": "2025-09-10T19:37:50.610729"
+  },
+  {
+    "name": "Роден край Бисквити 165 г",
+    "old_price": 2.95,
+    "new_price": 1.95,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.610852"
+  },
+  {
+    "name": "Billa Брашно бяло тип 500 2 кг",
+    "old_price": 3.19,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": 37,
+    "extracted_at": "2025-09-10T19:37:50.610996"
+  },
+  {
+    "name": "Роден край Бисквити за торта 250 г",
+    "old_price": 3.29,
+    "new_price": 2.19,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.611118"
+  },
+  {
+    "name": "КФМ Шунка печена или пилешко филе слайс 120 г",
+    "old_price": 5.99,
+    "new_price": 4.49,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.612063"
+  },
+  {
+    "name": "КФМ Луканка Старобългарска слайс 150 г Продукт, маркиран със синя звезда",
+    "old_price": 7.19,
+    "new_price": 4.99,
+    "currency": "лв.",
+    "discount_percent": 30,
+    "extracted_at": "2025-09-10T19:37:50.612216"
+  },
+  {
+    "name": "Billa Premium Лютеница едросмляна 540 г",
+    "old_price": 8.99,
+    "new_price": 5.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.612361"
+  },
+  {
+    "name": "КФМ Филе Елена слайс 80 г Продукт, маркиран със синя звезда",
+    "old_price": 6.19,
+    "new_price": 4.49,
+    "currency": "лв.",
+    "discount_percent": 27,
+    "extracted_at": "2025-09-10T19:37:50.612489"
+  },
+  {
+    "name": "Billa Айвар 500 г",
+    "old_price": 7.79,
+    "new_price": 5.79,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.612683"
+  },
+  {
+    "name": "Clever Пастет Апетит 300 г",
+    "old_price": 2.65,
+    "new_price": 2.25,
+    "currency": "лв.",
+    "discount_percent": 15,
+    "extracted_at": "2025-09-10T19:37:50.612809"
+  },
+  {
+    "name": "Billa яйца от свободно отглеждани кокошки, размер L, 10 бр. в опаковка",
+    "old_price": 5.99,
+    "new_price": 4.99,
+    "currency": "лв.",
+    "discount_percent": 16,
+    "extracted_at": "2025-09-10T19:37:50.613109"
+  },
+  {
+    "name": "Billa Premium Суджук телешки и говежди 160 г",
+    "old_price": 11.99,
+    "new_price": 7.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.613261"
+  },
+  {
+    "name": "Billa Premium Кашкавал от краве мляко 400 г",
+    "old_price": 16.99,
+    "new_price": 12.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.613392"
+  },
+  {
+    "name": "Clever Варено-пушен свински врат 1 кг",
+    "old_price": 14.79,
+    "new_price": 10.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.613513"
+  },
+  {
+    "name": "Clever Салам Бургас 450 г",
+    "old_price": 5.39,
+    "new_price": 3.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.613636"
+  },
+  {
+    "name": "Clever Обикновенни бисквити 120 г",
+    "old_price": 0.89,
+    "new_price": 0.69,
+    "currency": "лв.",
+    "discount_percent": 22,
+    "extracted_at": "2025-09-10T19:37:50.613788"
+  },
+  {
+    "name": "Clever Салфетки, рециклирани и избелени, 33/33,100 бр. в опаковка",
+    "old_price": 1.89,
+    "new_price": 1.29,
+    "currency": "лв.",
+    "discount_percent": 31,
+    "extracted_at": "2025-09-10T19:37:50.613911"
+  },
+  {
+    "name": "Billa Ориз Балдо 1 кг Продукт, маркиран със синя звезда",
+    "old_price": 5.49,
+    "new_price": 4.49,
+    "currency": "лв.",
+    "discount_percent": 18,
+    "extracted_at": "2025-09-10T19:37:50.614087"
+  },
+  {
+    "name": "Billa изворна вода 1,5 л",
+    "old_price": 0.69,
+    "new_price": 0.55,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.614254"
+  },
+  {
+    "name": "Billa Солети 250 г",
+    "old_price": 1.19,
+    "new_price": 0.99,
+    "currency": "лв.",
+    "discount_percent": 16,
+    "extracted_at": "2025-09-10T19:37:50.614382"
+  },
+  {
+    "name": "Clever Макаронени изделия 500 г",
+    "old_price": 1.19,
+    "new_price": 0.95,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.614506"
+  },
+  {
+    "name": "Billa газирана вода 1,5 л",
+    "old_price": 1.09,
+    "new_price": 0.79,
+    "currency": "лв.",
+    "discount_percent": 27,
+    "extracted_at": "2025-09-10T19:37:50.614627"
+  },
+  {
+    "name": "Само с Billa Card - Billa Градини Бяло грозде Сентинел или Виктория Градините в с. Милево, с. Момково, с. Малко градище За 1 кг",
+    "old_price": 4.99,
+    "new_price": 3.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.615600"
+  },
+  {
+    "name": "Billa Градини Краставици Градините в с. Първомай За 1 кг",
+    "old_price": 3.99,
+    "new_price": 2.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.615761"
+  },
+  {
+    "name": "Billa Градини Тиква Матилда Градините в с.Трилистник, с. Казичане, с. Милево За 1 кг",
+    "old_price": 1.69,
+    "new_price": 1.29,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.615888"
+  },
+  {
+    "name": "Billa Градини Бяло зеле Градините в с. Милево, гр. Петрич, с. Първомай За 1 кг",
+    "old_price": 1.99,
+    "new_price": 1.19,
+    "currency": "лв.",
+    "discount_percent": 40,
+    "extracted_at": "2025-09-10T19:37:50.616015"
+  },
+  {
+    "name": "Billa Градини Рукола Градините в с. Черньово 100 г",
+    "old_price": 2.99,
+    "new_price": 2.29,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.616219"
+  },
+  {
+    "name": "Супер Нектарини За 1 кг",
+    "old_price": 5.99,
+    "new_price": 3.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.616360"
+  },
+  {
+    "name": "Чери домати За 1 кг",
+    "old_price": 5.99,
+    "new_price": 3.79,
+    "currency": "лв.",
+    "discount_percent": 36,
+    "extracted_at": "2025-09-10T19:37:50.616517"
+  },
+  {
+    "name": "Ябълки Роял Гала За 1 кг",
+    "old_price": 2.99,
+    "new_price": 2.49,
+    "currency": "лв.",
+    "discount_percent": 16,
+    "extracted_at": "2025-09-10T19:37:50.616637"
+  },
+  {
+    "name": "Авокадо Хас 1 бр.",
+    "old_price": 1.99,
+    "new_price": 1.49,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.616756"
+  },
+  {
+    "name": "Смокиня 1 бр.",
+    "old_price": 1.49,
+    "new_price": 0.89,
+    "currency": "лв.",
+    "discount_percent": 40,
+    "extracted_at": "2025-09-10T19:37:50.616874"
+  },
+  {
+    "name": "Българска ферма Кайма 100% свинско месо За 1 кг",
+    "old_price": 11.99,
+    "new_price": 9.49,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.617771"
+  },
+  {
+    "name": "Българска ферма Свински флейки от бут За 1 кг",
+    "old_price": 14.29,
+    "new_price": 11.99,
+    "currency": "лв.",
+    "discount_percent": 16,
+    "extracted_at": "2025-09-10T19:37:50.617896"
+  },
+  {
+    "name": "Българска ферма Пресен пилешки горен бут За 1 кг",
+    "old_price": 5.79,
+    "new_price": 4.49,
+    "currency": "лв.",
+    "discount_percent": 22,
+    "extracted_at": "2025-09-10T19:37:50.618172"
+  },
+  {
+    "name": "Българска ферма Сурова наденица от свинско месо Стара планина 550 г",
+    "old_price": 7.99,
+    "new_price": 5.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.618327"
+  },
+  {
+    "name": "Българска ферма Свински преден джолан с кожа маринован За 1 кг",
+    "old_price": 8.49,
+    "new_price": 6.99,
+    "currency": "лв.",
+    "discount_percent": 17,
+    "extracted_at": "2025-09-10T19:37:50.618452"
+  },
+  {
+    "name": "Супер La Provincia Пилешки грил микс маринован За 1 кг Продукт, маркиран със синя звезда",
+    "old_price": 15.99,
+    "new_price": 9.99,
+    "currency": "лв.",
+    "discount_percent": 37,
+    "extracted_at": "2025-09-10T19:37:50.618715"
+  },
+  {
+    "name": "Свинска плешка без кост За 1 кг",
+    "old_price": 12.99,
+    "new_price": 7.99,
+    "currency": "лв.",
+    "discount_percent": 38,
+    "extracted_at": "2025-09-10T19:37:50.618868"
+  },
+  {
+    "name": "Grill Party Телешко кебапче или кюфте 360 г Продукт, маркиран със синя звезда",
+    "old_price": 8.99,
+    "new_price": 6.99,
+    "currency": "лв.",
+    "discount_percent": 22,
+    "extracted_at": "2025-09-10T19:37:50.619043"
+  },
+  {
+    "name": "Ocean Fish Пушена сьомга филе 100 г",
+    "old_price": 9.69,
+    "new_price": 6.99,
+    "currency": "лв.",
+    "discount_percent": 27,
+    "extracted_at": "2025-09-10T19:37:50.619177"
+  },
+  {
+    "name": "Roso Прясно пиле клас А За 1 кг Продукт, маркиран със синя звезда",
+    "old_price": 12.99,
+    "new_price": 10.99,
+    "currency": "лв.",
+    "discount_percent": 15,
+    "extracted_at": "2025-09-10T19:37:50.619351"
+  },
+  {
+    "name": "Само с Billa Card - Народен Кайма Универсална, за принцеси или с кашкавал, замразена 250 г",
+    "old_price": 3.19,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.619481"
+  },
+  {
+    "name": "Делиа Кайма от пуешко месо 400 г Продукт, маркиран със синя звезда",
+    "old_price": 7.49,
+    "new_price": 5.49,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.619604"
+  },
+  {
+    "name": "Супер Кашкавалка От Billa пекарна 120 г Billa Ready",
+    "old_price": 1.69,
+    "new_price": 1.19,
+    "currency": "лв.",
+    "discount_percent": 29,
+    "extracted_at": "2025-09-10T19:37:50.620172"
+  },
+  {
+    "name": "Закуска с топено сирене От Billa пекарна 110 г Billa Ready",
+    "old_price": 1.59,
+    "new_price": 1.19,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.620327"
+  },
+  {
+    "name": "Ново в Billa - Закуска калцоне От Billa пекарна 130 г Произход - България Billa Ready",
+    "old_price": 2.89,
+    "new_price": 2.19,
+    "currency": "лв.",
+    "discount_percent": 24,
+    "extracted_at": "2025-09-10T19:37:50.620855"
+  },
+  {
+    "name": "Мини франзела със семена От Billa пекарна 110 г Произход - България Billa Ready",
+    "old_price": 0.54,
+    "new_price": 0.35,
+    "currency": "лв.",
+    "discount_percent": 35,
+    "extracted_at": "2025-09-10T19:37:50.621000"
+  },
+  {
+    "name": "Закуска с кайсия и крем От Billa пекарна 85 г Billa Ready",
+    "old_price": 1.29,
+    "new_price": 0.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.621129"
+  },
+  {
+    "name": "Хляб Ламбърджак От Billa пекарна 400 г Billa Ready",
+    "old_price": 3.99,
+    "new_price": 3.29,
+    "currency": "лв.",
+    "discount_percent": 17,
+    "extracted_at": "2025-09-10T19:37:50.621287"
+  },
+  {
+    "name": "Вита Силует Хляб 6 зърна или класик 400 г Произход - България",
+    "old_price": 3.35,
+    "new_price": 2.39,
+    "currency": "лв.",
+    "discount_percent": 28,
+    "extracted_at": "2025-09-10T19:37:50.621423"
+  },
+  {
+    "name": "Супер Домашна луканкова наденица От топлата витрина 1 бр. Billa Ready",
+    "old_price": 2.99,
+    "new_price": 2.49,
+    "currency": "лв.",
+    "discount_percent": 16,
+    "extracted_at": "2025-09-10T19:37:50.621689"
+  },
+  {
+    "name": "Свински медальони на шиш От топлата витрина 1 бр. Billa Ready",
+    "old_price": 2.69,
+    "new_price": 1.89,
+    "currency": "лв.",
+    "discount_percent": 29,
+    "extracted_at": "2025-09-10T19:37:50.621813"
+  },
+  {
+    "name": "Картофи с подправка От топлата витрина За 1 кг Billa Ready",
+    "old_price": 16.99,
+    "new_price": 12.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.621937"
+  },
+  {
+    "name": "Пилешки дробчета по селски От топлата витрина За 1 кг Billa Ready",
+    "old_price": 19.49,
+    "new_price": 15.99,
+    "currency": "лв.",
+    "discount_percent": 17,
+    "extracted_at": "2025-09-10T19:37:50.622063"
+  },
+  {
+    "name": "Сицилианска мусака От топлата витрина За 1 кг Billa Ready",
+    "old_price": 19.99,
+    "new_price": 15.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.622186"
+  },
+  {
+    "name": "Пиле с грах От топлата витрина За 1 кг Billa Ready",
+    "old_price": 17.49,
+    "new_price": 12.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.622507"
+  },
+  {
+    "name": "Лазаня Болонезе От топлата витрина За 1 кг Billa Ready",
+    "old_price": 20.99,
+    "new_price": 15.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.622650"
+  },
+  {
+    "name": "Супер Тандем Шунка класик 200 г",
+    "old_price": 7.99,
+    "new_price": 3.99,
+    "currency": "лв.",
+    "discount_percent": 50,
+    "extracted_at": "2025-09-10T19:37:50.622943"
+  },
+  {
+    "name": "Кен Салам Бургас 200 г",
+    "old_price": 6.49,
+    "new_price": 3.99,
+    "currency": "лв.",
+    "discount_percent": 38,
+    "extracted_at": "2025-09-10T19:37:50.623069"
+  },
+  {
+    "name": "Еко Мес Мини сушеница слайс 120 г",
+    "old_price": 4.99,
+    "new_price": 3.49,
+    "currency": "лв.",
+    "discount_percent": 30,
+    "extracted_at": "2025-09-10T19:37:50.623192"
+  },
+  {
+    "name": "Само с Billa Card - Орехите Суджук Добруджански 160 г Продукт, маркиран със синя звезда",
+    "old_price": 11.99,
+    "new_price": 7.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.623364"
+  },
+  {
+    "name": "Народен Кренвирши пилешки XXL 560 г",
+    "old_price": 8.49,
+    "new_price": 5.99,
+    "currency": "лв.",
+    "discount_percent": 29,
+    "extracted_at": "2025-09-10T19:37:50.623491"
+  },
+  {
+    "name": "Само с Billa Card - Народен Колбас Телешки или Камчия 320 г",
+    "old_price": 2.99,
+    "new_price": 1.53,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.623859"
+  },
+  {
+    "name": "Бони Чорбаджийски пръчици 160 г",
+    "old_price": 6.29,
+    "new_price": 4.69,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.624134"
+  },
+  {
+    "name": "Billa Premium Прошуто ди Парма 90 г Продукт, маркиран със синя звезда",
+    "old_price": 9.69,
+    "new_price": 6.99,
+    "currency": "лв.",
+    "discount_percent": 27,
+    "extracted_at": "2025-09-10T19:37:50.624442"
+  },
+  {
+    "name": "Clever Луканков салам 300 г",
+    "old_price": 5.49,
+    "new_price": 3.99,
+    "currency": "лв.",
+    "discount_percent": 27,
+    "extracted_at": "2025-09-10T19:37:50.624569"
+  },
+  {
+    "name": "Супер Кренвирши От деликатесната витрина За 1 кг",
+    "old_price": 14.69,
+    "new_price": 9.99,
+    "currency": "лв.",
+    "discount_percent": 31,
+    "extracted_at": "2025-09-10T19:37:50.624696"
+  },
+  {
+    "name": "Само с Billa Card - Народен Наденица Македонска От деликатесната витрина За 1 кгПродукт, маркиран със синя звезда",
+    "old_price": 9.49,
+    "new_price": 4.85,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.625004"
+  },
+  {
+    "name": "Соколово Варено-пушена свинска плешка От деликатесната витрина За 1 кг",
+    "old_price": 15.49,
+    "new_price": 11.49,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.625133"
+  },
+  {
+    "name": "Само с Billa Card - Маджаров Луканка От деликатесната витрина За 1 кгПродукт, маркиран със синя звезда",
+    "old_price": 36.99,
+    "new_price": 18.91,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.625377"
+  },
+  {
+    "name": "Бони Луканкова наденица От деликатесната витрина За 1 кгПродукт, маркиран със синя звезда",
+    "old_price": 17.99,
+    "new_price": 13.99,
+    "currency": "лв.",
+    "discount_percent": 22,
+    "extracted_at": "2025-09-10T19:37:50.625507"
+  },
+  {
+    "name": "Орехите свинско филе От деликатесната витрина За 1 кг",
+    "old_price": 25.99,
+    "new_price": 16.99,
+    "currency": "лв.",
+    "discount_percent": 34,
+    "extracted_at": "2025-09-10T19:37:50.625632"
+  },
+  {
+    "name": "Маслини Стафидата От деликатесната витрина За 1 кг Billa Ready",
+    "old_price": 14.99,
+    "new_price": 10.99,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.626617"
+  },
+  {
+    "name": "El Pozo Мордела с маслини От деликатесната витрина За 1 кг",
+    "old_price": 13.99,
+    "new_price": 11.89,
+    "currency": "лв.",
+    "discount_percent": 15,
+    "extracted_at": "2025-09-10T19:37:50.626881"
+  },
+  {
+    "name": "El Pozo Салами От деликатесната витрина За 1 кг",
+    "old_price": 32.99,
+    "new_price": 26.99,
+    "currency": "лв.",
+    "discount_percent": 18,
+    "extracted_at": "2025-09-10T19:37:50.627069"
+  },
+  {
+    "name": "El Pozo Хамон Косидо иберико От деликатесната витрина За 1 кг",
+    "old_price": 34.99,
+    "new_price": 27.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.627219"
+  },
+  {
+    "name": "El Pozo Бекон От деликатесната витрина За 1 кг",
+    "old_price": 25.99,
+    "new_price": 20.99,
+    "currency": "лв.",
+    "discount_percent": 19,
+    "extracted_at": "2025-09-10T19:37:50.627365"
+  },
+  {
+    "name": "El Pozo Шунка пилешки гърди От деликатесната витрина За 1 кг",
+    "old_price": 22.99,
+    "new_price": 17.99,
+    "currency": "лв.",
+    "discount_percent": 21,
+    "extracted_at": "2025-09-10T19:37:50.627492"
+  },
+  {
+    "name": "Campofrio Шунка от пуешки гърди От деликатесната витрина За 1 кг",
+    "old_price": 37.99,
+    "new_price": 28.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.627620"
+  },
+  {
+    "name": "El Pozo Чориза екстра От деликатесната витрина За 1 кг",
+    "old_price": 39.99,
+    "new_price": 31.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.627802"
+  },
+  {
+    "name": "El Pozo Салчичон От деликатесната витрина За 1 кг",
+    "old_price": 39.99,
+    "new_price": 31.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.627946"
+  },
+  {
+    "name": "Campofrio Чоризо От деликатесната витрина За 1 кг",
+    "old_price": 28.99,
+    "new_price": 21.99,
+    "currency": "лв.",
+    "discount_percent": 24,
+    "extracted_at": "2025-09-10T19:37:50.628620"
+  },
+  {
+    "name": "Citterio Спианата От деликатесната витрина За 1 кг",
+    "old_price": 45.99,
+    "new_price": 34.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.628747"
+  },
+  {
+    "name": "Campofrio Салчичон От деликатесната витрина За 1 кг",
+    "old_price": 28.99,
+    "new_price": 22.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.628870"
+  },
+  {
+    "name": "Проуто крудо От деликатесната витрина За 1 кг",
+    "old_price": 59.99,
+    "new_price": 45.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.628992"
+  },
+  {
+    "name": "Galbani Прошуто кото с подправки От деликатесната витрина За 1 кг",
+    "old_price": 49.99,
+    "new_price": 39.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.629120"
+  },
+  {
+    "name": "Citterio Салам Милано От деликатесната витрина За 1 кг",
+    "old_price": 45.99,
+    "new_price": 34.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.629276"
+  },
+  {
+    "name": "Citterio Мортадела От деликатесната витрина За 1 кг",
+    "old_price": 19.99,
+    "new_price": 14.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.629406"
+  },
+  {
+    "name": "Citterio Салам Наполи От деликатесната витрина За 1 кг",
+    "old_price": 45.99,
+    "new_price": 34.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.629530"
+  },
+  {
+    "name": "Campofrio Салам паласиего От деликатесната витрина За 1 кг",
+    "old_price": 28.99,
+    "new_price": 21.99,
+    "currency": "лв.",
+    "discount_percent": 24,
+    "extracted_at": "2025-09-10T19:37:50.629654"
+  },
+  {
+    "name": "Супер Саяна Кашкавал От деликатесната витрина За 1 кг Произход - България",
+    "old_price": 29.69,
+    "new_price": 17.99,
+    "currency": "лв.",
+    "discount_percent": 39,
+    "extracted_at": "2025-09-10T19:37:50.631052"
+  },
+  {
+    "name": "Hochland Крема сирене за мазане 200 г Продукт, маркиран със синя звезда",
+    "old_price": 5.59,
+    "new_price": 3.99,
+    "currency": "лв.",
+    "discount_percent": 28,
+    "extracted_at": "2025-09-10T19:37:50.631180"
+  },
+  {
+    "name": "Zott моцарела 125 г",
+    "old_price": 3.39,
+    "new_price": 2.29,
+    "currency": "лв.",
+    "discount_percent": 32,
+    "extracted_at": "2025-09-10T19:37:50.631329"
+  },
+  {
+    "name": "Веселата крава Топено сирене 120 г",
+    "old_price": 4.49,
+    "new_price": 3.29,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.631751"
+  },
+  {
+    "name": "Маджаров кашкавал от овче мляко БДС 380 г Продукт, маркиран със синя звезда",
+    "old_price": 20.49,
+    "new_price": 14.49,
+    "currency": "лв.",
+    "discount_percent": 29,
+    "extracted_at": "2025-09-10T19:37:50.631874"
+  },
+  {
+    "name": "Саяна Кашкавалено роле От деликатесната витрина За 1 кг",
+    "old_price": 20.99,
+    "new_price": 15.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.631996"
+  },
+  {
+    "name": "Само с Billa Card - Димитър Маджаров Извара От деликатесната витрина За 1 кг",
+    "old_price": 9.99,
+    "new_price": 5.49,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.632119"
+  },
+  {
+    "name": "Billa Ементал настърган 150 г",
+    "old_price": 3.79,
+    "new_price": 3.19,
+    "currency": "лв.",
+    "discount_percent": 15,
+    "extracted_at": "2025-09-10T19:37:50.632396"
+  },
+  {
+    "name": "Булгарче Кисело мляко 2% 400 г",
+    "old_price": 1.69,
+    "new_price": 0.99,
+    "currency": "лв.",
+    "discount_percent": 41,
+    "extracted_at": "2025-09-10T19:37:50.633181"
+  },
+  {
+    "name": "Само с Billa Card - Заквасена сметана Danone 380 г",
+    "old_price": 3.99,
+    "new_price": 2.04,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.633375"
+  },
+  {
+    "name": "Passionata пица замразена 310 - 335 г",
+    "old_price": 7.99,
+    "new_price": 5.49,
+    "currency": "лв.",
+    "discount_percent": 31,
+    "extracted_at": "2025-09-10T19:37:50.633499"
+  },
+  {
+    "name": "Billa Грана Падано, отлежало 15 месеца 200 г",
+    "old_price": 9.99,
+    "new_price": 7.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.633753"
+  },
+  {
+    "name": "Clever топено сирене слайс 200 г",
+    "old_price": 4.49,
+    "new_price": 2.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.633874"
+  },
+  {
+    "name": "Фантазия Десерт 100 - 110 г",
+    "old_price": 2.15,
+    "new_price": 1.79,
+    "currency": "лв.",
+    "discount_percent": 16,
+    "extracted_at": "2025-09-10T19:37:50.633995"
+  },
+  {
+    "name": "Billa Хамон Serano слайс 80 г",
+    "old_price": 4.59,
+    "new_price": 3.39,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.634463"
+  },
+  {
+    "name": "Billa Шунка Шварцвалд слайс 100 г",
+    "old_price": 4.19,
+    "new_price": 2.99,
+    "currency": "лв.",
+    "discount_percent": 28,
+    "extracted_at": "2025-09-10T19:37:50.634582"
+  },
+  {
+    "name": "Billa Чоризо слайс 90 г",
+    "old_price": 4.59,
+    "new_price": 3.39,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.634697"
+  },
+  {
+    "name": "Billa Active Напитка 6 x 100 г Продукт, маркиран със синя звезда",
+    "old_price": 4.99,
+    "new_price": 3.79,
+    "currency": "лв.",
+    "discount_percent": 24,
+    "extracted_at": "2025-09-10T19:37:50.634817"
+  },
+  {
+    "name": "Billa Киноа 300 г",
+    "old_price": 3.79,
+    "new_price": 2.79,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.634944"
+  },
+  {
+    "name": "Billa Ньоки 500 г Продукт, маркиран със синя звезда",
+    "old_price": 2.99,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.635067"
+  },
+  {
+    "name": "Billa Чиа 150 г",
+    "old_price": 3.99,
+    "new_price": 2.79,
+    "currency": "лв.",
+    "discount_percent": 30,
+    "extracted_at": "2025-09-10T19:37:50.635190"
+  },
+  {
+    "name": "Billa Спагети, пене или фусили 500 г",
+    "old_price": 2.35,
+    "new_price": 1.59,
+    "currency": "лв.",
+    "discount_percent": 32,
+    "extracted_at": "2025-09-10T19:37:50.635348"
+  },
+  {
+    "name": "Billa Кисело мляко 3q6% 400 г",
+    "old_price": 1.45,
+    "new_price": 1.19,
+    "currency": "лв.",
+    "discount_percent": 17,
+    "extracted_at": "2025-09-10T19:37:50.635473"
+  },
+  {
+    "name": "Billa студен чай 0,33 л Продукт, маркиран със синя звезда",
+    "old_price": 1.19,
+    "new_price": 0.95,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.635734"
+  },
+  {
+    "name": "Billa Лешников какаов крем 400 г",
+    "old_price": 5.89,
+    "new_price": 4.39,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.635856"
+  },
+  {
+    "name": "Billa Гофрети 250 г",
+    "old_price": 4.39,
+    "new_price": 3.69,
+    "currency": "лв.",
+    "discount_percent": 15,
+    "extracted_at": "2025-09-10T19:37:50.635976"
+  },
+  {
+    "name": "Billa Бисквити Cookies 150 г",
+    "old_price": 3.69,
+    "new_price": 2.69,
+    "currency": "лв.",
+    "discount_percent": 27,
+    "extracted_at": "2025-09-10T19:37:50.636437"
+  },
+  {
+    "name": "Billa Пчелен мед букет 900 г Произход - България",
+    "old_price": 12.49,
+    "new_price": 9.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.636563"
+  },
+  {
+    "name": "Billa Лютеница едросмляна 570 г",
+    "old_price": 7.49,
+    "new_price": 5.59,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.636685"
+  },
+  {
+    "name": "Billa Градини сок 100% ябълка 3 л Произход - България",
+    "old_price": 7.49,
+    "new_price": 5.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.636810"
+  },
+  {
+    "name": "Billa Меденки с пълнеж 200 г",
+    "old_price": 3.19,
+    "new_price": 2.59,
+    "currency": "лв.",
+    "discount_percent": 18,
+    "extracted_at": "2025-09-10T19:37:50.636933"
+  },
+  {
+    "name": "Billa Пастет апетит 300 г",
+    "old_price": 3.59,
+    "new_price": 2.39,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.637055"
+  },
+  {
+    "name": "Фамилна+ Русенско варено 300 г",
+    "old_price": 3.59,
+    "new_price": 2.59,
+    "currency": "лв.",
+    "discount_percent": 27,
+    "extracted_at": "2025-09-10T19:37:50.638672"
+  },
+  {
+    "name": "Deroni Сос за паста болонезе или гъбен 310 г Продукт, маркиран със синя звезда",
+    "old_price": 4.49,
+    "new_price": 2.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.638802"
+  },
+  {
+    "name": "Веда Оцет винен 700 мл",
+    "old_price": 2.25,
+    "new_price": 1.69,
+    "currency": "лв.",
+    "discount_percent": 24,
+    "extracted_at": "2025-09-10T19:37:50.638940"
+  },
+  {
+    "name": "Kotanyi Микс подправки 20 - 40 г",
+    "old_price": 2.25,
+    "new_price": 1.59,
+    "currency": "лв.",
+    "discount_percent": 29,
+    "extracted_at": "2025-09-10T19:37:50.639065"
+  },
+  {
+    "name": "Супер Raffaello бонбони 230 г",
+    "old_price": 11.99,
+    "new_price": 8.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.639549"
+  },
+  {
+    "name": "Milora Белгийски бонбони 250 г",
+    "old_price": 10.69,
+    "new_price": 8.99,
+    "currency": "лв.",
+    "discount_percent": 15,
+    "extracted_at": "2025-09-10T19:37:50.639673"
+  },
+  {
+    "name": "Само с Billa Card - Roshen Обикновенни бисквити Към кафе 185 г",
+    "old_price": 1.69,
+    "new_price": 1.19,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.639797"
+  },
+  {
+    "name": "Боровец Тунквани бисквити с карамел и фъстъци 180 г Произход - България",
+    "old_price": 3.39,
+    "new_price": 2.69,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.639921"
+  },
+  {
+    "name": "Kit Kat Шоколадов десерт Chunky 40 г",
+    "old_price": 1.99,
+    "new_price": 1.29,
+    "currency": "лв.",
+    "discount_percent": 35,
+    "extracted_at": "2025-09-10T19:37:50.640043"
+  },
+  {
+    "name": "Фамилия Никола Фини овесени ядки 500 г Произход - България",
+    "old_price": 2.45,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": 18,
+    "extracted_at": "2025-09-10T19:37:50.640169"
+  },
+  {
+    "name": "BG Line Ретро паста Хели какао 65 г Произход - България",
+    "old_price": 0.85,
+    "new_price": 0.69,
+    "currency": "лв.",
+    "discount_percent": 18,
+    "extracted_at": "2025-09-10T19:37:50.640329"
+  },
+  {
+    "name": "Боровец Кексче 30 г Произход - България",
+    "old_price": 0.59,
+    "new_price": 0.49,
+    "currency": "лв.",
+    "discount_percent": 16,
+    "extracted_at": "2025-09-10T19:37:50.640454"
+  },
+  {
+    "name": "Salza Соленки с вкус на сирене 200 г Произход - България",
+    "old_price": 3.89,
+    "new_price": 2.39,
+    "currency": "лв.",
+    "discount_percent": 38,
+    "extracted_at": "2025-09-10T19:37:50.640576"
+  },
+  {
+    "name": "Rois Печени ядки Deluxe 150 г",
+    "old_price": 7.75,
+    "new_price": 5.49,
+    "currency": "лв.",
+    "discount_percent": 29,
+    "extracted_at": "2025-09-10T19:37:50.641122"
+  },
+  {
+    "name": "Jacobs Разтворимо кафе Monarch 200 г",
+    "old_price": 24.99,
+    "new_price": 15.99,
+    "currency": "лв.",
+    "discount_percent": 36,
+    "extracted_at": "2025-09-10T19:37:50.641277"
+  },
+  {
+    "name": "Супер Nova Brasilia мляно кафе 100 г",
+    "old_price": 4.65,
+    "new_price": 3.39,
+    "currency": "лв.",
+    "discount_percent": 27,
+    "extracted_at": "2025-09-10T19:37:50.641404"
+  },
+  {
+    "name": "Jacobs Кафе на зърна Monarch 1 кг",
+    "old_price": 53.69,
+    "new_price": 34.99,
+    "currency": "лв.",
+    "discount_percent": 34,
+    "extracted_at": "2025-09-10T19:37:50.641524"
+  },
+  {
+    "name": "Бирен фъстък 200 г",
+    "old_price": 2.09,
+    "new_price": 1.69,
+    "currency": "лв.",
+    "discount_percent": 19,
+    "extracted_at": "2025-09-10T19:37:50.641642"
+  },
+  {
+    "name": "Pom-Bar снакс Family pack 80 г Продукт, маркиран със синя звезда",
+    "old_price": 3.69,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": 46,
+    "extracted_at": "2025-09-10T19:37:50.641765"
+  },
+  {
+    "name": "Само с Billa Card - Rice Up Царевичен чипс 60 г Произход - България",
+    "old_price": 1.99,
+    "new_price": 1.39,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.641887"
+  },
+  {
+    "name": "Nice Bites Сурови ядки Тропик микс 200 г",
+    "old_price": 4.99,
+    "new_price": 3.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.642149"
+  },
+  {
+    "name": "Nice Bites Пържени бадеми 150 г",
+    "old_price": 3.99,
+    "new_price": 2.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.642346"
+  },
+  {
+    "name": "Само с Billa Card - Coca-Cola газирана напитка 0,33 л Продукт, маркиран със синя звезда",
+    "old_price": 1.25,
+    "new_price": 0.64,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.642673"
+  },
+  {
+    "name": "Heineken бутилка Мултипак 12 х 0,33 л Продукт, маркиран със синя звезда",
+    "old_price": 26.99,
+    "new_price": 17.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.642798"
+  },
+  {
+    "name": "Somersby сайдер 0,33 л",
+    "old_price": 2.35,
+    "new_price": 1.49,
+    "currency": "лв.",
+    "discount_percent": 36,
+    "extracted_at": "2025-09-10T19:37:50.642932"
+  },
+  {
+    "name": "Nestea студен чай 1,5 л",
+    "old_price": 3.49,
+    "new_price": 2.29,
+    "currency": "лв.",
+    "discount_percent": 34,
+    "extracted_at": "2025-09-10T19:37:50.643055"
+  },
+  {
+    "name": "Супер Шуменско бира 0,5 л Произход - България",
+    "old_price": 1.65,
+    "new_price": 1.15,
+    "currency": "лв.",
+    "discount_percent": 30,
+    "extracted_at": "2025-09-10T19:37:50.643180"
+  },
+  {
+    "name": "Monster енергийна напитка 0,5 л",
+    "old_price": 2.59,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.643369"
+  },
+  {
+    "name": "Само с Billa Card - Hell Coffee кафе напитка 0,250л",
+    "old_price": 1.49,
+    "new_price": 0.76,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.643535"
+  },
+  {
+    "name": "Пелистерка натурална минерална ествено газирана вода 1,5 л",
+    "old_price": 1.75,
+    "new_price": 1.39,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.643656"
+  },
+  {
+    "name": "White Horse Уиски 0,7 л Продукт, маркиран със синя звезда",
+    "old_price": 26.99,
+    "new_price": 14.99,
+    "currency": "лв.",
+    "discount_percent": 44,
+    "extracted_at": "2025-09-10T19:37:50.644234"
+  },
+  {
+    "name": "Bushmills Уиски 1 л Продукт, маркиран със синя звезда",
+    "old_price": 48.99,
+    "new_price": 33.99,
+    "currency": "лв.",
+    "discount_percent": 30,
+    "extracted_at": "2025-09-10T19:37:50.644369"
+  },
+  {
+    "name": "Beefeater Джин Pink 0,7 л",
+    "old_price": 29.29,
+    "new_price": 19.99,
+    "currency": "лв.",
+    "discount_percent": 31,
+    "extracted_at": "2025-09-10T19:37:50.644548"
+  },
+  {
+    "name": "Пещера Мастика 1 л Произход - България Продукт, маркиран със синя звезда",
+    "old_price": 19.89,
+    "new_price": 12.99,
+    "currency": "лв.",
+    "discount_percent": 34,
+    "extracted_at": "2025-09-10T19:37:50.644675"
+  },
+  {
+    "name": "Супер Mini Узо 0,7 л",
+    "old_price": 20.29,
+    "new_price": 15.99,
+    "currency": "лв.",
+    "discount_percent": 21,
+    "extracted_at": "2025-09-10T19:37:50.644795"
+  },
+  {
+    "name": "Nemiroff Водка 1 л",
+    "old_price": 25.39,
+    "new_price": 16.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.644911"
+  },
+  {
+    "name": "Само с Billa Card - Tcherga Вино 3 л Произход - България Продукт, маркиран със синя звезда",
+    "old_price": 21.49,
+    "new_price": 10.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.645072"
+  },
+  {
+    "name": "Barska Водка 0,7 л",
+    "old_price": 11.99,
+    "new_price": 8.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.645193"
+  },
+  {
+    "name": "Само с Billa Card - Болгаре Ракия отлежала гроздова 0,7 л Произход - България",
+    "old_price": 14.69,
+    "new_price": 10.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.645345"
+  },
+  {
+    "name": "Papia Кухненска ролка 3 пласта 2 бр. в опаковка",
+    "old_price": 4.99,
+    "new_price": 2.49,
+    "currency": "лв.",
+    "discount_percent": 50,
+    "extracted_at": "2025-09-10T19:37:50.645467"
+  },
+  {
+    "name": "Сега в Billa - Semana Омекотител 68/75 пранета Произход - България 1 изпиране = 0,10 лв./0,05 €/ 68 пранета; 0,09 лв./0,04 €/ 75 пранета",
+    "old_price": 9.19,
+    "new_price": 6.99,
+    "currency": "лв.",
+    "discount_percent": 23,
+    "extracted_at": "2025-09-10T19:37:50.645594"
+  },
+  {
+    "name": "Сега в Billa - Savex Premium Гел за пране 80 пранета или Капсули за пране 56 бр. 1 опаковка Произход - България Продукт, маркиран със синя звезда 1 изпиране = 0,31 лв./0,16 €/ 80 пранета; 0,45 лв./0,23 €/ 56 пранета",
+    "old_price": 25.99,
+    "new_price": 24.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.645775"
+  },
+  {
+    "name": "Сега в Billa - Perfex Тоалетна хартия 3 пласта 32 + 16 бр. в опаковка Продукт, маркиран със синя звезда",
+    "old_price": 16.99,
+    "new_price": 8.69,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.645935"
+  },
+  {
+    "name": "Само с Billa Card - Bref Color Aktiv или Brilliant Gel Тоалетно блокче 3 х 50 г или 3 х 42 г 1 опаковка Различни видове",
+    "old_price": 12.99,
+    "new_price": 6.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.646059"
+  },
+  {
+    "name": "Сега в Billa - Fairy All in 1 Капсули за съдомиялна 116 бр. в опаковка Продукт, маркиран със синя звезда",
+    "old_price": 66.99,
+    "new_price": 39.99,
+    "currency": "лв.",
+    "discount_percent": 40,
+    "extracted_at": "2025-09-10T19:37:50.646275"
+  },
+  {
+    "name": "Every Day Дамски превръзки 18 бр. в опаковка, 1 опаковка",
+    "old_price": 6.19,
+    "new_price": 3.99,
+    "currency": "лв.",
+    "discount_percent": 35,
+    "extracted_at": "2025-09-10T19:37:50.646405"
+  },
+  {
+    "name": "Medix Clean & easy Препарат за съдове 800 мл Произход - България",
+    "old_price": 5.39,
+    "new_price": 3.49,
+    "currency": "лв.",
+    "discount_percent": 35,
+    "extracted_at": "2025-09-10T19:37:50.646528"
+  },
+  {
+    "name": "Само с Billa Card - Persil Гел за пране 19/20/22 пранета 1 изпиране = 0,58 лв./0,29 €/ 19 пранета; 0,55 лв./0,28 €/ 20 пранета; 0,50 лв./0,25 €/ 22 пранета",
+    "old_price": 16.99,
+    "new_price": 10.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.646943"
+  },
+  {
+    "name": "Само с Billa Card - Lenor Омекотител 65/71 пранета или Парфюмни перли 140 г 1 опаковка Продукт, маркиран със синя звезда 1 изпиране = 0,13 лв./0,07 €/ 65 пранета; 0,12 лв./0,06 €/ 71 пранета",
+    "old_price": 8.79,
+    "new_price": 4.49,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.647114"
+  },
+  {
+    "name": "Само с Billa Card - Perwoll Гел за пране 40 пранета Продукт, маркиран със синя звезда 1 изпиране = 0,45 лв./0,23 €/ 40 пранета",
+    "old_price": 26.99,
+    "new_price": 17.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.647273"
+  },
+  {
+    "name": "Само с Billa Card - Ariel Гел или прах за пране 20 пранета или капсули за пране 14 бр. 1 опаковка различни видове 1 изпиране = 0,65 лв./0,33 €/ 20 пранета; 0,93 лв./0,47 €/ 14 пранета",
+    "old_price": 16.29,
+    "new_price": 12.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.647467"
+  },
+  {
+    "name": "Само с Billa Card - Aquafresh Fresh & Minty Паста за зъби 125 мл",
+    "old_price": 4.19,
+    "new_price": 2.14,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.647630"
+  },
+  {
+    "name": "Само с Billa Card - Dove Advanced Дезодорант спрей 150 мл или рол он 50 мл ,различни видове 1 бр.",
+    "old_price": 6.75,
+    "new_price": 3.45,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.647789"
+  },
+  {
+    "name": "Само с Billa Card - Dove Душ гел 450/500 мл",
+    "old_price": 8.99,
+    "new_price": 4.6,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.647944"
+  },
+  {
+    "name": "Само с Billa Card - Бочко Мокри кърпи 84 бр. в опаковка Произход - България",
+    "old_price": 3.59,
+    "new_price": 2.89,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.648065"
+  },
+  {
+    "name": "Само с Billa Card - Always Ultra Duo Дамски превръзки 12 - 20 бр. 1 опаковка",
+    "old_price": 5.19,
+    "new_price": 2.65,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.648257"
+  },
+  {
+    "name": "Само с Billa Card - Libresse Good Night Дамски превръзки 10 бр. Продукт, маркиран със синя звезда",
+    "old_price": 5.29,
+    "new_price": 4.79,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.648386"
+  },
+  {
+    "name": "Само с Billa Card - Syoss Шампоан или балсам 440 мл",
+    "old_price": 7.95,
+    "new_price": 4.06,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.648542"
+  },
+  {
+    "name": "Sensodyne Whitening Паста за зъби 75 мл",
+    "old_price": 10.99,
+    "new_price": 5.79,
+    "currency": "лв.",
+    "discount_percent": 47,
+    "extracted_at": "2025-09-10T19:37:50.648660"
+  },
+  {
+    "name": "Сега в Billa - Felix пауч за котки 4 x 80 - 85 г, различни видове",
+    "old_price": 4.49,
+    "new_price": 2.79,
+    "currency": "лв.",
+    "discount_percent": 37,
+    "extracted_at": "2025-09-10T19:37:50.648782"
+  },
+  {
+    "name": "Nivea Дезодорант спрей 250 мл",
+    "old_price": 14.29,
+    "new_price": 7.99,
+    "currency": "лв.",
+    "discount_percent": 44,
+    "extracted_at": "2025-09-10T19:37:50.649566"
+  },
+  {
+    "name": "Сега в Billa - Clear Шампоан 360 мл",
+    "old_price": 12.49,
+    "new_price": 6.29,
+    "currency": "лв.",
+    "discount_percent": 49,
+    "extracted_at": "2025-09-10T19:37:50.649688"
+  },
+  {
+    "name": "Сега в Billa - Clever Пастет за кучета 300 г различни видове",
+    "old_price": 1.59,
+    "new_price": 1.39,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.649912"
+  },
+  {
+    "name": "Сега в Billa - Vivess Дамски халат за баня, размери S - L, 1 бр.Продукт, маркиран със синя звезда",
+    "old_price": 54.99,
+    "new_price": 28.12,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.650427"
+  },
+  {
+    "name": "Сега в Billa - Vivess Мъжки халат за баня, размери М - XXL, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 54.99,
+    "new_price": 28.12,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.650654"
+  },
+  {
+    "name": "Сега в Billa - Хавлиени кърпи, 4 броя, 50 х 100 см, различни цветове Продукт, маркиран със синя звезда",
+    "old_price": 24.99,
+    "new_price": 12.78,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.650820"
+  },
+  {
+    "name": "Сега в Billa - Хавлиена кърпа тип \"рокля\", с презрамки, различни цветове, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 19.99,
+    "new_price": 10.22,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.650999"
+  },
+  {
+    "name": "Сега в Billa - Хавлиени кърпи, 2 броя, 70 х 140 см, различни цветове Продукт, маркиран със синя звезда",
+    "old_price": 24.99,
+    "new_price": 12.78,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.651165"
+  },
+  {
+    "name": "Сега в Billa - Vivess Постелка за баня 60 х 100 см, различни цветове, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 19.99,
+    "new_price": 10.22,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.651359"
+  },
+  {
+    "name": "Сега в Billa - Vivess Постелка за баня 50 х 80 см, различни цветове, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 14.99,
+    "new_price": 7.66,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.651583"
+  },
+  {
+    "name": "Сега в Billa - Vivess Кърпа за коса, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 11.99,
+    "new_price": 6.13,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.651747"
+  },
+  {
+    "name": "Сега в Billa - Хавлиени кърпи, 4 броя, 30 х 50 см, различни цветове Продукт, маркиран със синя звезда",
+    "old_price": 9.99,
+    "new_price": 5.11,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.651908"
+  },
+  {
+    "name": "Сега в Billa - Кошче за отпадъци, инокс, 5 л, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 11.99,
+    "new_price": 6.13,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.652070"
+  },
+  {
+    "name": "Сега в Billa - Комплект за тоалетна, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 4.49,
+    "new_price": 2.3,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.652267"
+  },
+  {
+    "name": "Сега в Billa - Комплект дървени закачалки, 6 бр. в опаковка Продукт, маркиран със синя звезда",
+    "old_price": 11.99,
+    "new_price": 6.13,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.652572"
+  },
+  {
+    "name": "Vivess Памучна мрежа за пране от Био Памук, 2 бр. в опаковка",
+    "old_price": 2.99,
+    "new_price": 2.19,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.652694"
+  },
+  {
+    "name": "Vivess Кърпа за почистване на баня, 30 х 30 см, 1 бр.",
+    "old_price": 3.99,
+    "new_price": 2.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.652816"
+  },
+  {
+    "name": "Само с Billa Card - Eurolamp Сешоар с дифузер, 2200W, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 54.99,
+    "new_price": 39.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.652940"
+  },
+  {
+    "name": "Само с Billa Card - Grundig Арома дифузер с LED светлина, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 49.99,
+    "new_price": 34.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.653065"
+  },
+  {
+    "name": "Спрей моп, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 19.99,
+    "new_price": 9.99,
+    "currency": "лв.",
+    "discount_percent": 50,
+    "extracted_at": "2025-09-10T19:37:50.653273"
+  },
+  {
+    "name": "Само с Billa Card - Weinberger Електронен кантар 30 х 30 х 2,5 см, различни цветове, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 24.99,
+    "new_price": 19.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.653462"
+  },
+  {
+    "name": "Phillips Филтрираща кана с таймер AWP2933WHT 2,6 л, 1 бр. Продукт, маркиран със синя звезда",
+    "old_price": 39.99,
+    "new_price": 29.99,
+    "currency": "лв.",
+    "discount_percent": 25,
+    "extracted_at": "2025-09-10T19:37:50.653593"
+  },
+  {
+    "name": "Phillips Резервен филтър за кана, 3 бр. Продукт, маркиран със синя звезда",
+    "old_price": 29.99,
+    "new_price": 23.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.653717"
+  },
+  {
+    "name": "Vivess Щипки за дрехи, 1 бр.",
+    "old_price": 4.49,
+    "new_price": 3.49,
+    "currency": "лв.",
+    "discount_percent": 22,
+    "extracted_at": "2025-09-10T19:37:50.653838"
+  },
+  {
+    "name": "Ръкавици за почистване М 1 опаковка",
+    "old_price": 1.99,
+    "new_price": 1.39,
+    "currency": "лв.",
+    "discount_percent": 30,
+    "extracted_at": "2025-09-10T19:37:50.653960"
+  },
+  {
+    "name": "Сега в Billa - Комплект ножици за декориране, 3 бр. в опаковка Продукт, маркиран с две червени звезди",
+    "old_price": 4.99,
+    "new_price": 2.55,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.654437"
+  },
+  {
+    "name": "Сега в Billa - Комплект ароматни гел химикалки , 5 бр. в опаковка Продукт, маркиран с две червени звезди",
+    "old_price": 4.99,
+    "new_price": 2.55,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.654605"
+  },
+  {
+    "name": "Сега в Billa - Astra Frutos Ароматизирани гел хималки, 8 цвята в опаковка Продукт, маркиран с три червени звезди",
+    "old_price": 8.99,
+    "new_price": 4.6,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.654978"
+  },
+  {
+    "name": "Сега в Billa - Astra Геометричен комплект Flexi, 3 елемента, 1 комплект Продукт, маркиран с три червени звезди",
+    "old_price": 5.49,
+    "new_price": 2.81,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.655152"
+  },
+  {
+    "name": "Сега в Billa - Ученически несесер с принадлежности 12 x 6 x 19,5 см 1 бр. Продукт, маркиран с три червени звезди",
+    "old_price": 17.99,
+    "new_price": 9.2,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.655352"
+  },
+  {
+    "name": "Сега в Billa - Bic Флумастери Visa, 12 цвята, 1 опаковка Продукт, маркиран с две червени звезди",
+    "old_price": 5.99,
+    "new_price": 3.06,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.655521"
+  },
+  {
+    "name": "Сега в Billa - Astra Флумастери CX, 24 цвята, 1 опаковка Продукт, маркиран с три червени звезди",
+    "old_price": 7.49,
+    "new_price": 3.83,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.655687"
+  },
+  {
+    "name": "Сега в Billa - Astra Ароматизирани флумастери Frutos Jumbo, 8 цвята, 1 опаковка Продукт, маркиран с три червени звезди",
+    "old_price": 8.99,
+    "new_price": 4.6,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.655853"
+  },
+  {
+    "name": "Сега в Billa - Primo Акварел 12 цвята в палитра, Ø 25 мм, 1 бр. Продукт, маркиран с една червена звезда",
+    "old_price": 5.99,
+    "new_price": 3.06,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.656020"
+  },
+  {
+    "name": "Сега в Billa - Детска ножица, 14 см, различни цветове 1 бр. Продукт, маркиран с две червени звезди",
+    "old_price": 2.49,
+    "new_price": 1.27,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.656189"
+  },
+  {
+    "name": "Сега в Billa - Острилка с гума, различни цветове 1 бр. Продукт, маркиран с една червена звезда",
+    "old_price": 2.49,
+    "new_price": 1.27,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.656395"
+  },
+  {
+    "name": "Сега в Billa - Spree Флумастери 12 цвята, прозрачна опаковка, тънък връх Ø 2 мм, 1 опаковка Продукт, маркиран с една червена звезда",
+    "old_price": 2.79,
+    "new_price": 1.43,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.656693"
+  },
+  {
+    "name": "Сега в Billa - Astrafun Вълшебна постелка с лепящи се стикери 1 бр. Продукт, маркиран с три червени звезди",
+    "old_price": 9.99,
+    "new_price": 5.11,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.656871"
+  },
+  {
+    "name": "Сега в Billa - Astrafun Ароматизирани печати Плодове, 9 бр., 1 комплект Продукт, маркиран с три червени звезди",
+    "old_price": 6.99,
+    "new_price": 3.57,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.657038"
+  },
+  {
+    "name": "Сега в Billa - Голяма гума с острилка, Зайче, 1 бр. Продукт, маркиран с три червени звезди",
+    "old_price": 3.99,
+    "new_price": 2.04,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.657365"
+  },
+  {
+    "name": "Сега в Billa - Astra Лепило с 3D капачка, 8 г, 1 бр. Продукт, маркиран с три червени звезди",
+    "old_price": 4.99,
+    "new_price": 2.55,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.657531"
+  },
+  {
+    "name": "Само с Billa App - Liindt Млечен шоколад 300 г",
+    "old_price": 19.39,
+    "new_price": 15.49,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.660004"
+  },
+  {
+    "name": "Само с Billa App - Aperol Алкохолна напитка 0,7 л",
+    "old_price": 19.99,
+    "new_price": 10.22,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.660165"
+  },
+  {
+    "name": "Само с Billa App - San Lazaro балсамова подправка за салати бяла 500 мл",
+    "old_price": 7.39,
+    "new_price": 4.79,
+    "currency": "лв.",
+    "discount_percent": 35,
+    "extracted_at": "2025-09-10T19:37:50.660322"
+  },
+  {
+    "name": "Само с Billa App - Compass Шкембе чорба 300 г",
+    "old_price": 2.79,
+    "new_price": 1.43,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.660481"
+  },
+  {
+    "name": "Само с Billa App - Dellos негазирана напитка алое 1,5 л",
+    "old_price": 5.25,
+    "new_price": 3.99,
+    "currency": "лв.",
+    "discount_percent": 24,
+    "extracted_at": "2025-09-10T19:37:50.660603"
+  },
+  {
+    "name": "Само с Billa App - Lactacyd Интимен гел 400 мл",
+    "old_price": 21.59,
+    "new_price": 10.99,
+    "currency": "лв.",
+    "discount_percent": 49,
+    "extracted_at": "2025-09-10T19:37:50.660828"
+  },
+  {
+    "name": "Само с Billa App - Clever Дентални пръчки за куче ,10 бр. в опаковка, 300 г",
+    "old_price": 2.99,
+    "new_price": 2.19,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.660952"
+  },
+  {
+    "name": "Само с Billa App - Ahmad Чай детокс 40 г",
+    "old_price": 3.99,
+    "new_price": 2.04,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.661250"
+  },
+  {
+    "name": "Само с Billa App - Clever Торби за смет 35 л х 50 броя.",
+    "old_price": 2.99,
+    "new_price": 2.19,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.661382"
+  },
+  {
+    "name": "Само с Billa App - Veet Депилиращ крем 400 мл",
+    "old_price": 21.49,
+    "new_price": 10.99,
+    "currency": "лв.",
+    "discount_percent": null,
+    "extracted_at": "2025-09-10T19:37:50.661598"
+  },
+  {
+    "name": "Супер Тънка свинска наденичка От топлата витрина 1 бр. Billa Ready",
+    "old_price": 2.19,
+    "new_price": 1.59,
+    "currency": "лв.",
+    "discount_percent": 27,
+    "extracted_at": "2025-09-10T19:37:50.663035"
+  },
+  {
+    "name": "Супер Тракийка краве сирене За 1 кг",
+    "old_price": 9.99,
+    "new_price": 7.99,
+    "currency": "лв.",
+    "discount_percent": 20,
+    "extracted_at": "2025-09-10T19:37:50.663160"
+  },
+  {
+    "name": "Супер Chef is… Боб или нахут 540 г",
+    "old_price": 3.49,
+    "new_price": 2.25,
+    "currency": "лв.",
+    "discount_percent": 35,
+    "extracted_at": "2025-09-10T19:37:50.663314"
+  },
+  {
+    "name": "Супер Amstel бира 1 л",
+    "old_price": 2.79,
+    "new_price": 1.79,
+    "currency": "лв.",
+    "discount_percent": 35,
+    "extracted_at": "2025-09-10T19:37:50.663439"
+  },
+  {
+    "name": "Супер Пилешко филе За 1 кг",
+    "old_price": 13.99,
+    "new_price": 10.99,
+    "currency": "лв.",
+    "discount_percent": 21,
+    "extracted_at": "2025-09-10T19:37:50.663695"
+  },
+  {
+    "name": "Супер Lovita Бисквити с шоколад 150 г",
+    "old_price": 2.99,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": 33,
+    "extracted_at": "2025-09-10T19:37:50.663909"
+  },
+  {
+    "name": "Супер Madri бира 0,5 л",
+    "old_price": 2.09,
+    "new_price": 1.49,
+    "currency": "лв.",
+    "discount_percent": 28,
+    "extracted_at": "2025-09-10T19:37:50.664077"
+  },
+  {
+    "name": "Супер Billa Градини Тиквички Градините в с. Първомай, с. Милево За 1 кг",
+    "old_price": 1.99,
+    "new_price": 1.19,
+    "currency": "лв.",
+    "discount_percent": 40,
+    "extracted_at": "2025-09-10T19:37:50.664371"
+  },
+  {
+    "name": "Супер Corona бира 0,355 л",
+    "old_price": 3.59,
+    "new_price": 1.99,
+    "currency": "лв.",
+    "discount_percent": 44,
+    "extracted_at": "2025-09-10T19:37:50.664495"
+  },
+  {
+    "name": "Супер Nescafe Разтворима напитка 3in1 15,5 г",
+    "old_price": 0.55,
+    "new_price": 0.29,
+    "currency": "лв.",
+    "discount_percent": 47,
+    "extracted_at": "2025-09-10T19:37:50.664617"
+  },
+  {
+    "name": "Супер 7 Days Bake rolls 80 г",
+    "old_price": 1.49,
+    "new_price": 1.09,
+    "currency": "лв.",
+    "discount_percent": 26,
+    "extracted_at": "2025-09-10T19:37:50.664739"
+  }
+]
